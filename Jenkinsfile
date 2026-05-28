@@ -1,7 +1,6 @@
 pipeline {
 agent any
 
-```
 stages {
 
     stage('Clone Repository') {
@@ -41,6 +40,5 @@ post {
         echo 'Deployment Failed!'
     }
 }
-```
 
 }
