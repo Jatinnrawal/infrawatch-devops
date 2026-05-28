@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  infrawatch:
+    build: .
+    container_name: infrawatch-container
+
+    ports:
+      - "5000:5000"
+
+    restart: always
