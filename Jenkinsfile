@@ -6,7 +6,7 @@ stages {
     stage('Clone Repository') {
         steps {
             git branch: 'main',
-            url: 'https://github.com/Jatinnrawal/infrawatch-devops.gity'
+            url: 'https://github.com/Jatinnrawal/infrawatch-devops.git'
         }
     }
 
